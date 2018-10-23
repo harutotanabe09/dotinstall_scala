@@ -6,7 +6,7 @@ object WhileApp {
     // 前判定
     while(i < 10){
       println(i)
-      i += 1 // i++の記法はない
+      i += 1 // ★i++の記法はない
     }
     // 後判定
     var l = 100;

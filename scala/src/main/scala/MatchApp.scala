@@ -2,6 +2,7 @@ object MatchApp {
   def main(args:Array[String]): Unit ={
 
     val signal = "red";
+    // ★結果を格納
     val result = signal match {
       case "red" => "stop"
       case "blue" | "green" => "go"

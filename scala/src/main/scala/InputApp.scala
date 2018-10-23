@@ -5,6 +5,7 @@ object InputApp {
     val name = "taguchi";
     val score = 80;
 
+    // ★フォーマター
     println(s"s name : $name , score : $score");
 
     println(s"s name : $name , score : ${score + 10}");
